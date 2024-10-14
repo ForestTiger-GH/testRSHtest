@@ -5,5 +5,5 @@ class Demonstration:
         self.r = a
         self.i = b
     
-    def fa_sum(a, b):
+    def fo_sum(a, b):
         return a + b
