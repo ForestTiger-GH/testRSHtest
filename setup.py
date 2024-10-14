@@ -8,7 +8,6 @@ setup(
    description='A useful module',
    author='Author Name',
    author_email='merkulov.dmit@gmail.com',
-   packages=find_packages(),
-   include_package_data=True,
+   packages= ['testing'],
    install_requires=['numpy', 'pandas'], #external packages as dependencies
 )
