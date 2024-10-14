@@ -10,5 +10,9 @@ Original file is located at
 import numpy
 import pandas
 
+def __init__(self, color, brand):
+    self.color = color
+    self.brand = brand
+
 def f_sum(a, b):
     return a + b
