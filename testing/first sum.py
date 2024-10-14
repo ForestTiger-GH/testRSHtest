@@ -1,4 +1,4 @@
-def f_sum(a, b):
+def fi_sum(a, b):
     return a + b
 
 
