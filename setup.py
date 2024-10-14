@@ -3,11 +3,12 @@
 from setuptools import setup
 
 setup(
-   name='testing',
-   version='1.0',
+   name='Test_4',
+   version='1.0.1',
    description='A useful module',
    author='Author Name',
    author_email='merkulov.dmit@gmail.com',
-   packages=['testing'],  #same as name
+   packages=find_packages(),
+   include_package_data=True,
    install_requires=['numpy', 'pandas'], #external packages as dependencies
 )
