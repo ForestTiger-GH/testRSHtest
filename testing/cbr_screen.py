@@ -22,7 +22,7 @@ def cbr_concat(list_files):
 class Create_Class(object):
     def __init__(self, FORMAT, list_files):
         names = list_files
-        for i in trange(len(names), leave = False):
+        for i in range(len(names)):###, leave = False):
             a = names[i]
             date = a.replace(FORMAT, '')
             b = pd.read_excel(a)
