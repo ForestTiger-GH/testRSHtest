@@ -1,4 +1,13 @@
 # -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import os
+import time
+import datetime
+from datetime import datetime as dtm
+from datetime import timedelta
+from tqdm import tqdm
+from tqdm.notebook import trange
 
 def cbr_screener(homedisk):
     sub = 'Макроэкономика и банки/Банк России/Количество офисов банков (M)'
